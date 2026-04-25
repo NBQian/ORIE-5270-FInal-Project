@@ -37,4 +37,5 @@ def rank_cross_sectional(signal):
     Returns values in [-1, +1] with zero mean at each row.
     """
     ranks = signal.rank(axis=1, pct=True)
-    return 2 * ranks - 1
+    centered = 2 * ranks - 1
+    return centered.sub(centered.mean(axis=1), axis=0)

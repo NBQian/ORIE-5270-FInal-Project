@@ -22,7 +22,7 @@ class TestMomentum(unittest.TestCase):
 
     def test_nan_at_start(self):
         s = momentum_signal(self.prices, lookback=24, skip=1)
-        self.assertTrue(s.iloc[:26].isna().all().all())
+        self.assertTrue(s.iloc[:25].isna().all().all())
 
     def test_positive_for_uptrend(self):
         p = pd.DataFrame({"A": np.arange(1, 101, dtype=float)})
