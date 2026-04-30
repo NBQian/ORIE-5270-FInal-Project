@@ -8,8 +8,8 @@ transaction cost modeling, and comprehensive risk analytics.
 
 ## Team
 
-- **Boqian (David) Niu (bn287)** — Data pipeline, parallel grid search, demo notebook, HTML documentation
-- **Zixi (Roxana) Ji (zj277)** — Signals, strategy engine, backtest presets, CLI
+- **Boqian (David) Niu (bn287)** — Data pipeline, parallel grid search, demo notebook, README.md
+- **Zixi (Roxana) Ji (zj277)** — Signals, strategy engine, backtest presets, CLI, HTML documentation
 - **Peijie Li (pl675)** — Risk analytics, visualization module, tests
 
 ## Demo
